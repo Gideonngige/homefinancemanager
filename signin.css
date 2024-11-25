@@ -1,0 +1,49 @@
+body{
+    background-image: url('assets/images/finance.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container .inner-container{
+    background-image: linear-gradient(to right, #14647e, #b09926);
+    border-radius: 5px;
+    min-width: 300px;
+    
+}
+.container .inner-container h2{
+    color: white;
+    text-align: center;
+}
+.container .inner-container hr{
+    color: white;
+}
+.container .inner-container label{
+    color: white;
+    margin-left: 10px;
+}
+.container .inner-container input[type="email"]{
+    margin: 10px;
+    width: 90%;
+}
+.container .inner-container input[type="password"]{
+    margin: 10px;
+    width: 90%;
+}
+.container .inner-container input[type="submit"]{
+    width: 90%;
+    background-image: linear-gradient(to right, #14647e, #b09926);
+    color: white;
+    margin: 10px;
+}
+.container .inner-container a{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
